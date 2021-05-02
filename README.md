@@ -1,2 +1,2 @@
-# discover
+# Discover
 discover new meals 
