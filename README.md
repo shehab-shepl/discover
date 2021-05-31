@@ -1,2 +1,2 @@
 # Discover
-discover new meals 
+discover new meals and new restaurants arround your location
