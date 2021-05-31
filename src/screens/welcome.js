@@ -14,18 +14,10 @@ import React, { Component } from 'react';
 import { scale, verticalScale, moderateScale } from '../util/scaling';
 
 
-export default class settingScreen extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-
-    };
-  }
-
- 
-
-
+export default class welcome extends React.Component {
   render() {
+    setTimeout(() => this.props.navigation.navigate("discoverPlace"), 3000)
+
     return (
       <View style={styles.container}>
         <View style={styles.imgView}>
